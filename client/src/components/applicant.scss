@@ -1,0 +1,84 @@
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+//   top: 200px;
+  color: wheat;
+  height: 600px;
+  width: 800px;
+  background-color: gray;
+  border-radius: 5px;
+  border: 2px solid blueviolet;
+}
+.heading{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    color: cornflowerblue;
+    font-weight: 800;
+    font-size: 55px;
+}
+.container{
+    margin: 0px 0px 0px 320px;
+   label{
+    margin: 10px;
+   }
+   .form-data{
+    margin:10px
+   }
+   .btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: blueviolet;
+   }
+   .file_attach{
+    float: left;
+    width: 38%;
+    text-align: center;
+    .btn_upload{
+      transition: 0.5s;
+      outline: none;
+      display: block;
+      border: solid 2px #78716e;
+      width: 40%;
+      padding: 12px 10px;
+      border-radius: 30px;
+      font-size: 17px;
+      background: none;
+      color: #78716e;
+      position: relative;
+      text-align: center;
+      font-weight: 500;
+      overflow: hidden;
+      margin-left: 100px;
+      margin-bottom: 10px;
+      cursor: default;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      input[type="file"]{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        cursor: pointer;
+        opacity: 0;
+      }
+    }
+}
+.bt{
+    width: 200px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: greenyellow;
+}
+}
+h3{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+}
